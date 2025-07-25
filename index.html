@@ -103,15 +103,96 @@
           your furry friends. Shop now and make tails wag with joy!
         </p>
         <button
-          class="btn bg-[#FFDC26] adlam-display-regular text-[16px] sm:text-[18px] md:text-[20px] font-normal sora-font mt-8 sm:mt-10"
+          class="btn bg-[#FFDC26] px-5 py-5 animate-pulse adlam-display-regular text-[16px] sm:text-[18px] md:text-[20px] font-normal sora-font mt-8 sm:mt-10"
         >
-          Find a pet
+          Find A Pet
         </button>
       </div>
     </section>
+    <section class="bg-white py-16 px-4 max-w-7xl mx-auto mt-10">
+      <div class="">
+        <h1
+          class="text-[24px] lg:text-[36px] font-normal adlam-display-regular mt-[30px] lg:mt-[80px] mb-[5px] lg:mb-[15px] lg:mb-[30px]"
+        >
+          Pet Care Tips & Articles
+        </h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Blog Card 1 -->
+          <div
+            class="bg-[#FFF9E6] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300"
+          >
+            <img
+              src="c1-assets/benjamin-lehman-qwIeh5M8bF8-unsplash.jpg"
+              alt="Dog Care"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold adlam-display-regular">
+                5 Tips to Keep Your Dog Healthy
+              </h3>
+              <p class="mt-3 text-gray-600 sora-font">
+                Learn essential daily habits to boost your dog’s energy and keep
+                them happy and healthy.
+              </p>
+              <button class="mt-4 text-[#FFB800] font-medium hover:underline">
+                Read More →
+              </button>
+            </div>
+          </div>
+
+          <!-- Blog Card 2 -->
+          <div
+            class="bg-[#FFF9E6] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300"
+          >
+            <img
+              src="c1-assets/reba-spike-4y7030O1XPQ-unsplash.jpg"
+              alt="Cat Grooming"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold adlam-display-regular">
+                The Art of Cat Grooming
+              </h3>
+              <p class="mt-3 text-gray-600 sora-font">
+                Discover simple grooming techniques to reduce shedding and keep
+                your feline soft and clean.
+              </p>
+              <button class="mt-4 text-[#FFB800] font-medium hover:underline">
+                Read More →
+              </button>
+            </div>
+          </div>
+
+          <!-- Blog Card 3 -->
+          <div
+            class="bg-[#FFF9E6] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300"
+          >
+            <img
+              src="c1-assets/minjae-cho-MCHRyK3vz90-unsplash.jpg"
+              alt="Aquarium Tips"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold adlam-display-regular">
+                How to Maintain a Clean Fish Tank
+              </h3>
+              <p class="mt-3 text-gray-600 sora-font">
+                A clean tank means happy fish! Here’s how to avoid algae buildup
+                and keep your aquarium sparkling.
+              </p>
+              <button class="mt-4 text-[#FFB800] font-medium hover:underline">
+                Read More →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="max-w-7xl mx-auto">
       <h1
-        class="text-[24px] lg:text-[36px] font-normal adlam-display-regular mt-[30px] lg:mt-[80px] mb-[5px]  lg:mb-[15px] lg:mb-[30px] p-2"
+        class="text-[24px] lg:text-[36px] font-normal adlam-display-regular mt-[30px] lg:mt-[80px] mb-[5px] lg:mb-[15px] lg:mb-[30px] p-2"
       >
         Browse By Categories
       </h1>
@@ -220,17 +301,19 @@
         </div>
       </div>
     </section>
-    <section class=" mt-10 relative">
+    <section class="mt-10 lg:mt-30 relative">
       <div class="flex h-[850px] lg:h-[700px]">
         <div class="w-1/2 bg-[#FFF9F4] hidden lg:block"></div>
         <div class="w-1/2 bg-white hidden lg:block"></div>
       </div>
-        <h1
-        class="text-[24px] lg:text-[36px] font-normal adlam-display-regular p-2 absolute top-1 left-0 lg:top-25 lg:left-10"
+      <h1
+        class="text-[24px] lg:text-[36px] font-normal adlam-display-regular p-2 absolute top-1 left-0 lg:top-20 lg:left-10"
       >
         Trending Pet Products
       </h1>
-      <div class="max-w-7xl mx-auto p-3 lg:flex gap-5 absolute top-15 right-1 lg:top-50 lg:right-8">
+      <div
+        class="max-w-7xl mx-auto p-3 lg:flex gap-5 absolute top-15 right-1 lg:top-45 lg:right-8"
+      >
         <div class="bg-[#F9DF8A] w-[400px] relative h-[390px]">
           <div class="relative top-10 left-11">
             <h1 class="adlam-display-regular text-[20px]">T-Shirt For Dogs</h1>
@@ -250,8 +333,12 @@
             />
           </div>
         </div>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3 mt-3 lg:mt-0">
-          <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3 mt-3 lg:mt-0"
+        >
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/dog-cartoon.png" alt="" />
             </div>
@@ -266,7 +353,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/fish-cartoon.png" alt="" />
             </div>
@@ -281,7 +370,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/bird-cartoon.png" alt="" />
             </div>
@@ -296,7 +387,9 @@
               </div>
             </div>
           </div>
-             <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/rabbit-cartoon.png" alt="" />
             </div>
@@ -311,7 +404,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/bird-cartoon.png" alt="" />
             </div>
@@ -326,7 +421,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/pet-couch.png" alt="" />
             </div>
@@ -341,7 +438,9 @@
               </div>
             </div>
           </div>
-             <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/fish-cartoon.png" alt="" />
             </div>
@@ -356,7 +455,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]">
+          <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px]"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/pet-couch.png" alt="" />
             </div>
@@ -371,7 +472,9 @@
               </div>
             </div>
           </div>
-            <div class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px] hidden lg:block">
+           <div
+            class="flex items-center gap-4 border-2 border-[#1111111A] rounded-sm p-3 lg:w-[275px] lg:h-[120px] invisible lg:visible"
+          >
             <div class="bg-[#FFF9F4] p-3">
               <img src="c1-assets/rabbit-cartoon.png" alt="" />
             </div>
